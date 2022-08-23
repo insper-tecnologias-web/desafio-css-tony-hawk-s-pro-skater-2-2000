@@ -51,6 +51,17 @@ body {
   border-radius: 0.4rem;
 }
 
+.form-card-title{
+  border: none;
+  font-size: larger;
+  padding-bottom: 0.5rem;
+}
+
+.autoresize{
+  border: none;
+  padding-bottom: 0.5rem;
+}
+
 .card-container{
   display: flex;
   flex-direction: row;  
@@ -95,9 +106,10 @@ h3{
   margin: 0.4%;
 }
 
-/* Você pode usar o CSS comentado abaixo, se ajudar */
-/* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
-/* .btn {
+.btn {
+  border: none;
+  box-shadow: 0.1rem 0.1rem 0.5rem grey;
+  background-color: #f8d434;
   position: relative;
   display: block;
   padding: 10px 15px;
@@ -145,4 +157,4 @@ h3{
   padding-top: 120%;
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
-} */
+} 
