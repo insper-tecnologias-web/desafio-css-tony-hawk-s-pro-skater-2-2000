@@ -35,7 +35,7 @@ body {
   max-height: 3rem;
   aspect-ratio: 1;
   background-color: #f8d434;
-  box-shadow: 0px 0.2rem 1rem grey;
+  box-shadow: 0px 0.2rem 1rem #4C4C4C;
 }
 
 
@@ -47,8 +47,42 @@ body {
   margin:3% 40% 2% ;
   padding: 1rem;
   border: none;
-  box-shadow: 0.1rem 0.1rem 0.5rem grey;
+  box-shadow: 0.1rem 0.1rem 0.5rem #4C4C4C;
   border-radius: 0.4rem;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;  
+  flex-wrap: wrap;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 8rem;
+  border: 1px solid black;
+  margin: 1%;
+  background-color: #f8d434;
+  border-radius: 0.4rem;
+  justify-content: space-around;
+  box-shadow: 0.1rem 0.1rem 0.5rem #4C4C4C;
+  padding: 1rem;
+}
+
+h3{
+  font-weight: bold;
+  padding-bottom: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.card-content{
+  color: #4C4C4C;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
 }
 
 .subtitle{
