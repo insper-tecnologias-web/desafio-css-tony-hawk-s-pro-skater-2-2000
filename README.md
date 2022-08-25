@@ -5,7 +5,7 @@ Grupo:
 - Murilo Prado Weyne
 - Pedro Bittar Barão
 - Rafael Eli Katri
-- Link do GitHub Pages: COLOQUE O LINK AQUI (POR EXEMPLO: https://barbaratieko.github.io/tecweb-2021-2-desafio-css/)
+- Link do GitHub Pages: https://insper-tecnologias-web.github.io/desafio-css-tony-hawk-s-pro-skater-2-2000/
 
 ## Desafio CSS
 
